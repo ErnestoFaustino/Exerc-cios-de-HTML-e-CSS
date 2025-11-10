@@ -1,0 +1,47 @@
+/*
+pequenas telas: ate 660px
+telefone: de 600px ate 768px
+tablet: 780px ate 992
+desktop: 992px ate 1200px
+grandes telas: acima de 1200
+
+*/
+
+
+@media screen and (max-width: 600px) {
+    form{
+        width: 180px;
+        height: 378px;
+        border-radius: 10px;
+    }
+
+    input{
+        width: 150px;
+        height: 10px;
+        padding: 10px 5px;
+    }
+    #btCadastrar{
+        width: 150px;
+        height: 28px;
+      
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    form{
+        width: 600px;
+        height: 378px;
+        border-radius: 10px;
+    }
+
+    input{
+        width: 500px;
+        height: 10px;
+        padding: 10px 5px;
+    }
+    #btCadastrar{
+        width: 500px;
+        height: 28px;
+      
+    }
+}
